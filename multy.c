@@ -5,6 +5,7 @@
 //existem outros jeitos de fazer essa conversão, os quais eu não entendi nada, mas esse usou menos linhas
 //vejam o que acham e se a gente faz um frankenstein dos nossos códigos
 //eu compilei no C compiler e rodou 
+//as chamadas usadas foram write, read e exit
 
 void imprime_numero(int numero){
     if (numero / 10 > 0){
