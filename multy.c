@@ -12,11 +12,11 @@ write(1, "Segundo numero: ", 16);
 read(0, segundo_char, 3);
 
 for(i = 0 ; primeiro_char[i] !='\n' && i<3 ; i++){
-  primeiro_int = (primeiro_int * 10) + (primeiro_char - '0');
+  primeiro_int = (primeiro_int * 10) + (primeiro_char[i] - '0');
 }
 
 for(i = 0 ; segundo_char[i] !='\n' && i<3 ; i++){
-  segundo_int = (segundo_int * 10) + (segundo_char - '0');
+  segundo_int = (segundo_int * 10) + (segundo_char[i] - '0');
 }
 
 
