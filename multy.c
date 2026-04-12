@@ -5,8 +5,9 @@
 //existem outros jeitos de fazer essa conversão, os quais eu não entendi nada, mas esse usou menos linhas
 //vejam o que acham e se a gente faz um frankenstein dos nossos códigos
 //eu compilei no C compiler e rodou 
-void imprime_numero(int numero) {
-    if (numero / 10 > 0) {
+
+void imprime_numero(int numero){
+    if (numero / 10 > 0){
         imprime_numero(numero / 10); 
     }
     char digito = (numero % 10) + '0';
