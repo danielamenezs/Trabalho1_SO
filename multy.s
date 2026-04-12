@@ -1,4 +1,5 @@
 #código em assembly gerado pelo comando "gcc -S seu_arquivo.c -o seu_arquivo.s" no terminal do Linux
+#se mudar o arquvo mãe em C, o de assembly vai ter que ser gerado de novo pelo terminal
 	.file	"multy.c"
 	.text
 	.globl	imprime_numero
