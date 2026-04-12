@@ -1,6 +1,5 @@
 #include <unistd.h>
 
-
 //o gemini indicou usar a função recursiva para conversão de int para char
 //essa foi a única parte que eu não saquei muito bem como funciona ainda
 void imprime_numero(int numero) {
