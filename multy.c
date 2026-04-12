@@ -16,8 +16,8 @@ void imprime_numero(int numero){
 
 int main(){
 
-char primeiro_char[10], segundo_char[10]; //dados lidos pela chamada
-int primeiro_int = 0, segundo_int = 0; //variáveis para a conversão de char para int; = 0 para o lixo de memória
+char primeiro_char[10], segundo_char[10];
+int primeiro_int = 0, segundo_int = 0;
 
 write(1, "Primeiro numero: ", 17);
 read(0, primeiro_char, 10); 
