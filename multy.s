@@ -1,3 +1,4 @@
+#código em assembly gerado pelo comando "gcc -S seu_arquivo.c -o seu_arquivo.s" no terminal do Linux
 	.file	"multy.c"
 	.text
 	.globl	imprime_numero
