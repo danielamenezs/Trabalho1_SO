@@ -1,13 +1,5 @@
 #include <unistd.h>
 
-//o gemini indicou usar a função recursiva para conversão de int para char
-//essa foi a única parte que eu não saquei muito bem como funciona ainda
-//existem outros jeitos de fazer essa conversão, os quais eu não entendi nada, mas esse usou menos linhas
-//vejam o que acham e se a gente faz um frankenstein dos nossos códigos
-//eu compilei no C compiler e rodou 
-//as chamadas usadas foram write, read e exit
-//dani vai adicionar o open
-
 void imprime_numero(int numero){
     if (numero / 10 > 0){
         imprime_numero(numero / 10); 
