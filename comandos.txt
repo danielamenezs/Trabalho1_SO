@@ -1,0 +1,35 @@
+comandinhos    
+
+
+p ver memoria atual 
+
+free -h
+
+criar uma swap de tamanho X (ex: 512mb)
+
+sudo fallocate -l 512M /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+confirma q a Swap ta ativa
+
+swapon --show
+free -h
+
+executar o stress test 
+ex: (pode ser qualquer valor)
+stress --vm 2 --vm-bytes 4G --timeout 60s
+
+coletar dado p relatório (tirar print dessas telas)
+
+free -h
+top 
+
+ouuu
+
+htop
+
+repete p outros tamanhos de swap (512mb, 2gb, 4gb etcetc
+
+
